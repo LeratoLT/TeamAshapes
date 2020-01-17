@@ -9,7 +9,8 @@ namespace GitShapesTest
             Console.WriteLine("This is your Git test shapes project!");
             Console.Write("Which shape do you want to calculate (Square/Rec/Tri/Cir): ");
 
-            SQStuff();
+            if(Console.ReadLine().ToUpper().StartsWith('S'))
+                SQStuff();
             
             
             Console.Write("\n\nPress any key to exit..");
@@ -17,8 +18,6 @@ namespace GitShapesTest
         }
         public static void SQStuff()
         {
-            if (Console.ReadLine().ToUpper().StartsWith('S'))
-            {
                 Console.WriteLine("===============================");
                 Console.Write("Enter length: ");
                 string slength = Console.ReadLine();
@@ -47,7 +46,6 @@ namespace GitShapesTest
                         Console.Write("Thanks bye");
 
                 }
-            }
             }
     }
 }
