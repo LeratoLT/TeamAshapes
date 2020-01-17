@@ -36,7 +36,7 @@ namespace GitShapesTest
 
                     if (Console.ReadKey().KeyChar == 'Y')
                     {
-
+                    SQStuff();
                     }
                     else if (Console.ReadKey().KeyChar == 'N')
                     {
