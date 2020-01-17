@@ -2,12 +2,13 @@
 
 public class Class1
 {
-    private double area;
-    public double Cal_Area(double length, double width)
+    //rectangle
+    private Decimal area;
+    public decimal Cal_Area(decimal length, decimal width)
     {
         area = length * width;
         return area;
 
     }
-
+  
 }
