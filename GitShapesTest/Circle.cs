@@ -2,16 +2,9 @@
 
 public class Circle
 {
-	public Circle()
+	public decimal calculateCircleArea(decimal radius)
 	{
-		radius = 0;
-	}
-
-	private decimal radius;
-
-	public decimal calculateCircleArea(int r)
-	{
-		radius = r;
+		radius;
 		decimal pi = Math.PI;
 		decimal area = pi * radius * radius;
 		return area;		
